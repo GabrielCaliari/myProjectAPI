@@ -9,3 +9,7 @@ export const Container = styled.View`
   padding-bottom: 32px;
   background-color: ${props => props.theme.colors.background};
 `;
+
+export const Switch = styled.Switch`
+  bottom: -200px;
+`;
